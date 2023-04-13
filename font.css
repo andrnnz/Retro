@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400|Open+Sans:700);
+
+body{
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.division{
+    width: 80%;
+    padding: 2%;
+    margin: 0 2% 0 6%;
+    background: #0b101c;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px red;
+}
+
+section.text {
+    width: 100%;
+    min-width: 800px;
+    text-align: center;
+    margin-top: 5%;
+}
+hr{
+    margin: 0 10px;
+    height: 5px;
+
+}
+h1{
+    font-family: "Oswald", Sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+h1.shadow {
+    text-shadow: 4px 5px #bdbdbd, 6px 7px #b00a0a;
+}
+
+h3 {
+    font-family: "Open Sans", Sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin-bottom: 1%;
+    position: relative;
+}
+
+div{
+    width: 100%;
+    padding: 1%;
+}
+
+div.flex{
+    display: flex;
+}
+
+div.izquierda{
+    text-align: left;
+}
+
+img.piloto{
+    width: 50%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.27);
+}
+
+.btn-pilot{
+    margin: 5%;
+    padding: 2% 7%;
+    height: 20%;
+    width: 50%;
+    font-size: x-large;
+    font-family: "Oswald", Sans-serif;
+    background: #000f3a;
+    box-shadow: 3px 3px 3px 3px red;
+    color: white;
+
+}

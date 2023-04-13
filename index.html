@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+<body style="background-color: #000f3a; text-align: center;">
+
+<section class="text">
+    <h1 class="shadow"><span>F1 Heroes</span></h1>
+</section>
+
+<div class="division">
+    <div class="izquierda">
+        <h3> Michael Schumacher </h3>
+        <div class="flex">
+            <img class="piloto" src="michael.jpeg" id="schumacher">
+            <div style="width: 50%; text-align: center; display: inline-block">
+                <p style="padding: 2% 10%; text-align: left; font-family: 'Open Sans', Sans-serif;" id="info-schumacher">
+                    Michael Schumacher es un expiloto alemán de automovilismo. Ha ganado siete campeonatos mundiales de Fórmula 1:
+                    dos con la escudería Benetton en 1994 y 1995, ​ y cinco con Ferrari entre 2000 y 2004, ​ superando con
+                    ello los cinco campeonatos conseguidos por Juan Manuel Fangio.
+                </p>
+                <button class="btn-pilot" id="btn-info" onclick="info()"> Stats </button>
+            </div>
+            <div id="stats" style="display: none; text-align: left">
+                <section style="text-align: left; margin-bottom: 2%">
+                    <h3 class="shadow">Desde su Debut</h3>
+                </section>
+                <section style="margin: 0">
+                    <label for="podios" style="line-height: 0.5%; font-family: 'Open Sans', Sans-serif">Podios</label>
+                    <h1 class="shadow" id="podios" style="line-height: 0.5%">155</h1>
+                    <label for="vict" style="line-height: 0.5%; font-family: 'Open Sans', Sans-serif">Victorias</label>
+                    <h1 class="shadow" id="vict" style="line-height: 0.5%">91</h1>
+                </section>
+                <section style="text-align: left">
+                    <button class="btn-pilot" id="btn-regresar" style="display: none; margin: 0" onclick="regresar()">Regresar</button>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
