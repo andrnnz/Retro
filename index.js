@@ -14,6 +14,26 @@ function info(){
 
 }
 
+function ajax(){
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        document.getElementById("bio").innerHTML =
+            this.responseText;
+    }
+    xhttp.open("GET", "schumBio.txt");
+    xhttp.send();
+}
+
+function ajax2(){
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        document.getElementById("bio").innerHTML =
+            this.responseText;
+    }
+    xhttp.open("GET", "intro.txt");
+    xhttp.send();
+}
+
 function regresar(){
     document.getElementById("btn-info").style.display="inline";
     document.getElementById("btn-regresar").style.display="none";

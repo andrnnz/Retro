@@ -19,7 +19,7 @@
         <div class="flex">
             <img class="piloto" src="michael.jpeg" id="schumacher" style="width: 55%">
             <div id="container-preStats" style="width: 45%; text-align: center; display: inline-block; background-image: url('car.jpg'); background-size: cover">
-                <button class="btn-pilot" id="btn-info" onclick="info()"> Stats </button>
+                <button class="btn-pilot" id="btn-info" onclick="info(); ajax()"> Stats </button>
             </div>
 
             <div id="stats" style="display: none; text-align: left; margin:0 0 0 2%">
@@ -41,7 +41,7 @@
                     </section>
                 </div>
                 <section style="text-align: left; margin: 5% 5%">
-                    <button class="btn-pilot" id="btn-regresar" style="display: none; margin: 0" onclick="regresar()">Regresar</button>
+                    <button class="btn-pilot" id="btn-regresar" style="display: none; margin: 0" onclick="regresar(); ajax2()">Regresar</button>
                 </section>
             </div>
 
@@ -50,15 +50,12 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Bio
+                        Datos
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Michael Schumacher</strong>
-                         es un expiloto alemán de automovilismo. Ha ganado siete campeonatos mundiales de Fórmula 1:
-                        dos con la escudería Benetton en 1994 y 1995, ​ y cinco con Ferrari entre 2000 y 2004, ​ superando con
-                        ello los cinco campeonatos conseguidos por Juan Manuel Fangio.
+                    <div class="accordion-body" id="bio">
+                        Seven times a champion, Michael Schumacher also holds nearly every scoring record in the book by a considerable margin.
                     </div>
                 </div>
             </div>
